@@ -7,7 +7,7 @@
 运行程序并指定任务类型：
 
 ```bash
-python yang_teacher_simulator.py [任务类型]
+python 杨老师.py [任务类型]
 ```
 
 
