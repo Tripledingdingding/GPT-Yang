@@ -46,7 +46,7 @@ elif  sys.argv[1] == "生儿子":
     born_one_son()
 
 elif  sys.argv[1] == "召唤牛马":  
-    decoded_data = base64.b64decode(sbgoutuizi).decode('utf-8', errors='ignore')
+    decoded_data = base64.b64decode(niuma).decode('utf-8', errors='ignore')
     print(decoded_data)
     
 elif  sys.argv[1] == "召唤狗腿子":  
