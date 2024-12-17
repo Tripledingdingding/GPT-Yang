@@ -16,6 +16,6 @@ python 杨老师.py [任务类型]
 ![main](main.gif)
 
 ### 增加生儿子功能与召唤宠物功能（2024-12-17）
-
+![main](born_son.gif)
 ![main](goutuizi.png)
 ![main](niuma.png)
