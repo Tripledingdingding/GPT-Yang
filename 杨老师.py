@@ -1,6 +1,21 @@
-
 import sys
 import time
+import os
+
+def born_one_son():
+    # 如果 "杨老师之子1.py" 不存在，就生成它
+    if not os.path.exists("杨老师之子1.py"):
+        with open("杨老师之子1.py", "w", encoding="utf-8") as file:
+            file.write('print("哇哇哇，要论文")')
+        print("杨老师之子1.py 已生成！")
+    # 如果 "杨老师之子1.py" 存在，但 "杨老师之子2.py" 不存在，就生成它
+    elif not os.path.exists("杨老师之子2.py"):
+        with open("杨老师之子2.py", "w", encoding="utf-8") as file:
+            file.write('print("哇哇哇，要论文")')
+        print("杨老师之子2.py 已生成！")
+    # 如果两个文件都存在
+    else:
+        print("杨老师生不出更多儿子了")
 
 if len(sys.argv) <= 1:
     print("请给杨老师指定工作")
@@ -21,5 +36,9 @@ elif  sys.argv[1] == "看论文":
 elif  sys.argv[1] == "还钱":  
     print("实验室统筹安排")
 
+elif  sys.argv[1] == "生儿子":  
+    born_one_son()
+
 else:
     print("杨老师很忙，请给出杨老师能处理的工作类型")    
+
