@@ -14,3 +14,7 @@ python 杨老师.py [任务类型]
 ### 示例
 
 ![main](main.gif)
+
+### 增加生儿子功能（2024-12-17）
+
+![main](born_son.gif)
